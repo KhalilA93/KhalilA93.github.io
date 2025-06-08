@@ -43,8 +43,14 @@ body {
   margin: 0 auto;
   padding: 0 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.nav-brand {
+  position: absolute;
+  left: 0;
 }
 
 .nav-brand a {
@@ -95,6 +101,8 @@ body {
 .social-nav {
   display: flex;
   gap: 1rem;
+  position: absolute;
+  right: 0;
 }
 
 .social-nav a {
