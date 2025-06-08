@@ -106,15 +106,21 @@
     <!-- MAIN CONTENT -->
     <main class="main-content">
       {{ content }}
-    </main>
-
-    <!-- FOOTER -->
+    </main>    <!-- FOOTER -->
     <footer class="site-footer">
       <div class="footer-content">
-        <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author | default: site.title }}. All rights reserved.</p>
-        {% if site.github.is_project_page %}
-        <p>Powered by <a href="https://pages.github.com">GitHub Pages</a></p>
-        {% endif %}
+        <div class="footer-social">
+          {% if site.social.github %}
+            <a href="https://github.com/{{ site.social.github }}" target="_blank" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          {% endif %}
+          {% if site.social.linkedin %}
+            <a href="https://linkedin.com/in/{{ site.social.linkedin }}" target="_blank" aria-label="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          {% endif %}
+        </div>
       </div>
     </footer>
 

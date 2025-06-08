@@ -594,23 +594,35 @@ video {
 
 /* Footer */
 .site-footer {
-  background-color: #161616e0;
-  color: #000000;
+  background-color: #b8b8b8;
+  color: #ffffff;
   padding: 2rem 0;
   text-align: center;
 }
 
-.footer-content p {
-  margin: 0.5rem 0;
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.footer-content a {
-  color: #3498db;
+.footer-social {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-social a {
+  color: #ffffff;
+  font-size: 2rem;
+  transition: color 0.3s ease, transform 0.3s ease;
   text-decoration: none;
 }
 
-.footer-content a:hover {
-  text-decoration: underline;
+.footer-social a:hover {
+  color: #e00000;
+  transform: translateY(-3px) scale(1.1);
 }
 
 /* Animations */
@@ -665,5 +677,13 @@ video {
   .about-image img {
     width: 250px;
     height: 250px;
+  }
+  
+  .footer-social {
+    gap: 1.5rem;
+  }
+  
+  .footer-social a {
+    font-size: 1.8rem;
   }
 }
