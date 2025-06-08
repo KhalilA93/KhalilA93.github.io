@@ -257,28 +257,25 @@ section {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
-.video-placeholder {
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-  padding: 80px 40px;
+.video-description {
   text-align: center;
-  color: #000000;
+  margin: 2rem auto;
+  max-width: 700px;
+  padding: 0 1rem;
 }
 
-.video-placeholder i {
-  font-size: 4rem;
+.video-description h3 {
+  font-size: 1.5rem;
+  color: #ffffff;
   margin-bottom: 1rem;
-  color: #3498db;
-}
-
-.video-placeholder p {
-  font-size: 1.2rem;
   font-weight: 600;
-  margin-bottom: 0.5rem;
 }
 
-.video-placeholder span {
-  font-size: 0.9rem;
-  color: #000000;
+.video-description p {
+  font-size: 1.1rem;
+  color: #ffffff;
+  line-height: 1.6;
+  opacity: 0.9;
 }
 
 video {
