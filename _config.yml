@@ -1,5 +1,22 @@
 remote_theme: pages-themes/slate@v0.2.0
 plugins:
 - jekyll-remote-theme
-title: Khalil's homepage
-description: Bookmark this to keep an eye on my project updates!
+
+# Site settings
+title: Khalil's Portfolio
+description: Professional Portfolio - Showcasing Creative Work and Projects
+author: Khalil
+email: your.email@example.com
+
+# Social media links
+social:
+  github: KhalilA93
+  linkedin: # your-linkedin-username
+  twitter: # your-twitter-username
+  instagram: # your-instagram-username
+  behance: # your-behance-username
+  dribbble: # your-dribbble-username
+
+# Portfolio settings
+show_downloads: false
+show_social_nav: true
