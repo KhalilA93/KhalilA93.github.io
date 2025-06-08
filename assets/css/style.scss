@@ -286,6 +286,37 @@ video {
   height: auto;
 }
 
+.video-actions {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.repo-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 12px 24px;
+  background-color: #b40000;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(180, 0, 0, 0.3);
+}
+
+.repo-button:hover {
+  background-color: #e00000;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(224, 0, 0, 0.4);
+  color: #ffffff;
+}
+
+.repo-button i {
+  font-size: 1.2rem;
+}
+
 /* Projects Grid */
 .projects-grid {
   display: grid;
