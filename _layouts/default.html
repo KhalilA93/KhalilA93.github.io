@@ -19,11 +19,9 @@
       <div class="nav-container">
         <div class="nav-brand">
           <a href="#home">{{ site.author | default: site.title }}</a>
-        </div>
-        <ul class="nav-links">
+        </div>        <ul class="nav-links">
           <li><a href="#home">Home</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         {% if site.show_social_nav %}
@@ -61,13 +59,30 @@
         </div>
         {% endif %}
       </div>
-    </nav>
-
-    <!-- HERO SECTION -->
+    </nav>    <!-- HERO SECTION -->
     <section id="home" class="hero-section">
       <div class="hero-content">
-        <h1 class="hero-title">{{ site.title | default: site.github.repository_name }}</h1>
-        <p class="hero-subtitle">{{ site.description | default: site.github.project_tagline }}</p>
+        <div class="hero-profile">
+          <div class="hero-image">
+            <img src="/assets/images/1698416132165.jpg" alt="Khalil's Profile Pic">
+          </div>
+          <h1 class="hero-title">{{ site.title | default: site.github.repository_name }}</h1>
+          <p class="hero-subtitle">{{ site.description | default: site.github.project_tagline }}</p>
+          <div class="hero-bio">
+            <p>I'm a passionate developer and creative professional with expertise in building innovative digital solutions. I enjoy crafting user-centered experiences that combine functionality with aesthetic appeal.</p>
+          </div>
+          <div class="hero-skills">
+            <div class="skills-grid">
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">CSS/SASS</span>
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">TypeScript</span>
+            </div>
+          </div>
+        </div>
         <a href="#portfolio" class="cta-button">View My Work</a>
       </div>
     </section>

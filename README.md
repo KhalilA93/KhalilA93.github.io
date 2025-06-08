@@ -14,21 +14,21 @@ A modern, responsive portfolio website built with Jekyll and hosted on GitHub Pa
 ## Structure
 
 ```
-├── _config.yml          # Site configuration
+├── _config.yml          
 ├── _layouts/
-│   └── default.html     # Main layout template
+│   └── default.html     
 ├── _includes/
-│   └── head-custom.html # Custom head elements
+│   └── head-custom.html 
 ├── assets/
 │   ├── css/
-│   │   └── style.scss   # Custom styles
+│   │   └── style.scss   
 │   ├── js/
-│   │   └── main.js      # Interactive features
-│   ├── images/          # Your images
-│   ├── videos/          # Your videos
-│   ├── icons/           # Site icons
-│   └── README.md        # Media guidelines
-└── index.html           # Homepage content
+│   │   └── main.js      
+│   ├── images/          
+│   ├── videos/          
+│   ├── icons/           
+│   └── README.md        
+└── index.html           
 ```
 
 ## Setup
