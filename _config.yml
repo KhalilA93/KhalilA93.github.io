@@ -3,19 +3,15 @@ plugins:
 - jekyll-remote-theme
 
 # Site settings
-title: Khalil's Portfolio
-description: Professional Portfolio - Showcasing Creative Work and Projects
-author: Khalil
-email: your.email@example.com
+title: Khalil D. Atkins
+description: Full-Stack Developer | MERN Specialist
+author: Khalil D. Atkins
+email: khalilatkins420@gmail.com
 
 # Social media links
 social:
   github: KhalilA93
-  linkedin: # your-linkedin-username
-  twitter: # your-twitter-username
-  instagram: # your-instagram-username
-  behance: # your-behance-username
-  dribbble: # your-dribbble-username
+  linkedin: https://www.linkedin.com/in/khalil-atkins-0aa64a286
 
 # Portfolio settings
 show_downloads: false
