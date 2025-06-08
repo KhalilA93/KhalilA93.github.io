@@ -51,7 +51,7 @@ body {
   font-size: 1.5rem;
   font-weight: bold;
   text-decoration: none;
-  color: #2c3e50;
+  color: #000000;
   transition: color 0.3s ease;
 }
 
@@ -74,7 +74,7 @@ body {
 }
 
 .nav-links a:hover {
-  color: #3498db;
+  color: #f00000;
 }
 
 .nav-links a::after {
@@ -104,7 +104,7 @@ body {
 }
 
 .social-nav a:hover {
-  color: #3498db;
+  color: #f10606;
   transform: translateY(-2px);
 }
 
@@ -115,7 +115,7 @@ body {
   align-items: center;
   justify-content: center;
   background: linear-gradient(135deg, #9e0000 0%, #530000fb 100%);
-  color: rgb(24, 12, 12);
+  color: rgb(0, 0, 0);
   text-align: center;
   position: relative;
 }
